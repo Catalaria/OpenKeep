@@ -22,7 +22,7 @@
 	var/watersucc = 1
 	var/foodsucc = 1
 	var/growthrate = 1 //0.5, 1.3, etc its multilpeid
-	var/maxphp = 100
+	var/maxplant_hp = 100
 	var/obscura = FALSE
 	var/delonharvest = TRUE
 	var/timesharvested = 0
@@ -68,8 +68,8 @@
 		visible_message("<span class='notice'>[user] plants some seeds.</span>")
 		D.planted_crop.name = src.plantname
 		D.planted_crop.myseed = src
-		D.planted_crop.php = maxphp
-		D.planted_crop.mphp = maxphp
+		D.planted_crop.plant_hp = maxplant_hp
+		D.planted_crop.mphp = maxplant_hp
 		if(!D.can_see_sky())
 			D.planted_crop.seesky = FALSE
 		if(D.muddy)
