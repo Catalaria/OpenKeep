@@ -79,7 +79,7 @@
 	return message_language.spans
 
 /datum/species/abyssariad/kenku/check_roundstart_eligible()
-	return TRUE
+	return FALSE
 
 /datum/species/abyssariad/kenku/on_species_gain(mob/living/carbon/C, datum/species/old_species)
 	..()

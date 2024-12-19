@@ -77,13 +77,13 @@
 
 /datum/species/elf/undine/get_skin_list()
 	return sortList(list(
-		"Swamp Bodysnatcher" = SKIN_COLOR_SWAMPCLAN,
-		"Jungle Bodysnatcher" = SKIN_COLOR_JUNGLECLAN, //EDIT
-		"Leaf Skypiercer" = SKIN_COLOR_LEAFCLAN,
-		"Bog Skypiercer" = SKIN_COLOR_BOGCLAN, //EDIT
-		"Forest Boneclad" = SKIN_COLOR_FORESTCLAN,
-		"Shadow Boneclad" = SKIN_COLOR_SHADOWCLAN,
-		"Firebloom Riverdweller" = SKIN_COLOR_FIREBLOOMCLAN,
+//		"Swamp Bodysnatcher" = SKIN_COLOR_SWAMPCLAN,
+//		"Jungle Bodysnatcher" = SKIN_COLOR_JUNGLECLAN, //EDIT
+//		"Leaf Skypiercer" = SKIN_COLOR_LEAFCLAN,
+//		"Bog Skypiercer" = SKIN_COLOR_BOGCLAN, //EDIT
+//		"Forest Boneclad" = SKIN_COLOR_FORESTCLAN,
+//		"Shadow Boneclad" = SKIN_COLOR_SHADOWCLAN,
+//		"Firebloom Riverdweller" = SKIN_COLOR_FIREBLOOMCLAN,
 		"Abyssal Riverdweller" = SKIN_COLOR_ABYSSALCLAN,
 	))
 

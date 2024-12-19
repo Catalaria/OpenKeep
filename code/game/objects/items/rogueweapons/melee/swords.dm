@@ -1012,6 +1012,7 @@
 	resistance_flags = FIRE_PROOF
 	smeltresult = /obj/item/ingot/steel
 	max_integrity = 500
+	dropshrink = 0.8
 	force = 5 //You won't get ANYTHING by using in one hand. Trust me. EVEN IF YOU COULD.
 	force_wielded = 38 // HAI YOOOOOOOOOO. This is totally getting nerfed by Gundam, and I'm afraid.
 	slowdown = 1
@@ -1027,6 +1028,18 @@
 	parrysound = "largeblade"
 	pickup_sound = "brandish_blade"
 	bigboy = TRUE
+
+/obj/item/rogueweapon/sword/dragonslayer/getonmobprop(tag)
+	. = ..()
+	if(tag)
+		switch(tag)
+			if("gen")
+				return list("shrink" = 0.5,"sx" = -6,"sy" = 6,"nx" = 6,"ny" = 7,"wx" = 0,"wy" = 5,"ex" = -1,"ey" = 7,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = -50,"sturn" = 40,"wturn" = 50,"eturn" = -50,"nflip" = 0,"sflip" = 8,"wflip" = 8,"eflip" = 0)
+			if("wielded")
+				return list("shrink" = 0.5,"sx" = 9,"sy" = -4,"nx" = -7,"ny" = 1,"wx" = -9,"wy" = 2,"ex" = 10,"ey" = 2,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = 5,"sturn" = -190,"wturn" = -170,"eturn" = -10,"nflip" = 4,"sflip" = 4,"wflip" = 1,"eflip" = 0)
+			if("onback")
+				return list("shrink" = 0.5,"sx" = -1,"sy" = 3,"nx" = -1,"ny" = 2,"wx" = 3,"wy" = 4,"ex" = -1,"ey" = 5,"nturn" = 0,"sturn" = 0,"wturn" = 70,"eturn" = 20,"nflip" = 1,"sflip" = 1,"wflip" = 1,"eflip" = 1,"northabove" = 1,"southabove" = 0,"eastabove" = 0,"westabove" = 0)
+
 
 /datum/intent/dragonslayer/smash
 	name = "smash"

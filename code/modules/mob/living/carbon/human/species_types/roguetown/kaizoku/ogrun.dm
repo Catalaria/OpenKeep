@@ -81,14 +81,14 @@
 /datum/species/abyssariad/ogrun/get_skin_list()
 	return sortList(list(
 		"Defiant Oni" = SKIN_COLOR_DEFIANCE,
-		"Sanguine Oni" = SKIN_COLOR_DEFIANCE_SANGUINE,
-		"Stable Oni" = SKIN_COLOR_STABILITY,
-		"Intellectual Oni" = SKIN_COLOR_STABILITY_INTELLECT,
-		"Serene Oni" = SKIN_COLOR_SERENITY,
-		"Harmonious Oni" = SKIN_COLOR_SERENITY_PEACE,
-		"Audacious Oni" = SKIN_COLOR_AUDACY,
-		"Mysterious Oni" = SKIN_COLOR_AUDACY_MYSTERY,
-		"Recently Purified" = SKIN_COLOR_BLANK_PURIFICATED,
+//		"Sanguine Oni" = SKIN_COLOR_DEFIANCE_SANGUINE,
+//		"Stable Oni" = SKIN_COLOR_STABILITY,
+//		"Intellectual Oni" = SKIN_COLOR_STABILITY_INTELLECT,
+//		"Serene Oni" = SKIN_COLOR_SERENITY,
+//		"Harmonious Oni" = SKIN_COLOR_SERENITY_PEACE,
+//		"Audacious Oni" = SKIN_COLOR_AUDACY,
+//		"Mysterious Oni" = SKIN_COLOR_AUDACY_MYSTERY,
+//		"Recently Purified" = SKIN_COLOR_BLANK_PURIFICATED,
 	))
 
 /datum/species/abyssariad/ogrun/get_hairc_list()
