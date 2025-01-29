@@ -44,7 +44,7 @@
 		if("Noc")
 			wrists = /obj/item/clothing/neck/roguetown/psycross/noc
 		if("Abyssor")
-			wrists = /obj/item/clothing/neck/roguetown/psicross/abyssanctum //the only one allowed for Abyssariads bond to Abyssor.
+			wrists = /obj/item/clothing/neck/roguetown/psycross/silver/abyssanctum //the only one allowed for Abyssariads bond to Abyssor.
 		if("Pestra")
 			wrists = /obj/item/clothing/neck/roguetown/psycross/silver/pestra
 		else // Failsafe

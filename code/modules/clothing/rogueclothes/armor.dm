@@ -1106,7 +1106,7 @@
 	icon_state = "kikko"
 	adjustable = CAN_CADJUST
 
-/obj/item/clothing/suit/roguetown/armor/leather/studded/kikko/eidolon
+/obj/item/clothing/suit/roguetown/armor/leather/splint/kikko/eidolon
 	color = CLOTHING_EIDOLON
 
 /obj/item/clothing/suit/roguetown/armor/leather/studded/kikko/AdjustClothes(mob/user)

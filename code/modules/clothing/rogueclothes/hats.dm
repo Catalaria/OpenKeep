@@ -1657,7 +1657,7 @@
 	desc = "A conical straw hat used to protect from the sun and rain."
 	flags_inv = HIDEEARS
 
-/obj/item/clothing/head/roguetown/lilly/small
+/obj/item/clothing/head/roguetown/lilly
 	name = "small lilypad gasa"
 	icon_state = "lilypad_small"
 	desc = "a small lilypad used by Undines to protect from sun and rain. This comes as a intercultural exchange mimicking Abyssariad's gasas."
@@ -1962,6 +1962,7 @@
 	worn_y_dimension = 64
 	block2add = null //Can easily see - cannot remove the helmet. This is your new skull.
 	adjustable = CAN_CADJUST
+	clothing_flags = null
 
 /obj/item/clothing/head/roguetown/helmet/heavy/bronzepot/AdjustClothes(mob/user)
 	if(loc == user)
